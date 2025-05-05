@@ -3,14 +3,16 @@ body{
 }
 .banner{
     background-color:#2e8b57;
+    background: linear-gradient(to right,#1B1F3A,#6345dc,#00CFFF,#520181);
     color: white;
     text-align: center;
-    font-size: x-large;
-    padding: 5px;
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 15px;
     text-transform: uppercase;
 }
 .menu{
-    background-color:rgb(98, 98, 98);
+    background-color:rgb(67, 67, 67);
     position: relative;
 }
 .left{
@@ -37,7 +39,7 @@ body{
     bottom: 0;
     width: 100%;
     height: 7%;
-    background-color:#446a55 ;
+    background-color:#323232 ;
 }
 .f-content{
     margin:13px;
@@ -58,3 +60,24 @@ body{
     position: absolute;
     left: 20px;
 }
+.highlight{
+    color: rgb(255, 7, 7);
+    font-weight: 600;
+}
+.dashboard{
+    position: relative;
+margin: 20px;
+}
+.dash-icon{
+    position: relative;
+    left: 0;
+}
+.dash-text1{
+    text-align: center;
+    font-size: 45px;
+}
+.dash-text2{
+    text-align: center;
+    font-size: large;
+}
+
